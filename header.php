@@ -6,6 +6,7 @@
 <html class="full" lang="en">
   <head>
     <meta charset="utf-8">
+    <style> body  {opacity:0;}</style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A Portfolio website of Georgie Mattingley, visual artist based in Melbourne, Australia.">
@@ -48,6 +49,9 @@
       background-color:#000;
     }
     </style>
+    <script>
+      window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
+    </script>
   </head>
 <body>
  

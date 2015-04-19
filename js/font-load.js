@@ -8,7 +8,7 @@
         function f(){ 
           s.parentNode && s.parentNode.removeChild(s); }
           addEventListener('load',f,false);
-          setTimeout(f,3000);
+          setTimeout(f,5000);
         }
       })();
     // a nice improvement to this script is to only hide the elements using webfonts 
