@@ -1,0 +1,110 @@
+ /* css for index.php where used in index_menu.php for making height responsive layout - */
+.nav>li>a:focus,a {
+  text-decoration: none;
+  background-color:transparent !important; 
+  color: #fff !important;
+  outline: none; 
+}
+.nav>li>a:hover{
+  text-decoration: none;
+  background-color:transparent !important; 
+  color: #000 !important;
+  outline: none; 
+}
+.obj-wrapper {
+	position:relative;
+	width:100%;
+	margin-top:3%;
+	height:0;
+	overflow:hidden;
+}
+.content {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:transparent;
+}
+.nav-section>li>a{
+    height:25px;
+    padding:0px 10px;
+}  
+
+.nav-stacked>li+li:hover{
+    color:#000;
+}
+/*middle area --> */
+.menu{
+	text-transform:uppercase;
+	font-size:60px;
+	font-family: 'tradegothicbold', Arial, sans-serif;
+}
+.menu-area{
+	max-width:510px;
+}
+.main-li{
+	max-width:510px;
+}
+.upcoming{
+	color:#fff;
+	text-align:right;
+	line-height: 20px;
+	font-size:20px;
+	font-family: 'tradegothicbold',Arial, sans-serif;
+}
+.upcoming-home {position:absolute;width: 250px;right: 0;bottom: 0;}
+.upc-main{
+	padding-top:105%;
+	width:100%;
+}
+.upc-text{
+	text-transform:uppercase;
+	padding-right: 20px;
+}
+.upc-section{
+	max-height:210px;
+	min-height:90px;
+	overflow:auto;
+	min-width:250px;
+	padding-right: 10px;
+}
+.mob-upchead{
+	text-transform:uppercase;
+	color:#fff;
+	text-align:right;
+	font-family:'tradegothicbold',Arial, sans-serif;
+	font-size:20px;
+	min-width:250px;
+}
+.mob-section{
+	color:#fff;
+	text-align:right;
+	line-height: 20px;
+	font-size:20px;
+	font-family:'tradegothicbold',Arial, sans-serif;
+	min-height:90px;
+	max-height:210px;
+	overflow:auto;
+	min-width:250px;
+	margin-right:20px;
+}
+.a-none{
+	 text-decoration:none;
+	 outline:medium none;
+}
+.div-height{
+	 margin-top:100px;
+	 text-decoration:none;
+	 outline:none;
+
+}
+.for-text{
+	font-family:'tradegothicbold',Arial, sans-serif;
+	 font-size:72px;
+	 color:#fff;
+	 line-height:1;
+	 text-decoration:none;
+	 outline:none;
+}
+
+
+	  

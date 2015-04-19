@@ -1,0 +1,201 @@
+[01-Dec-2014 09:35:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/delete_action.php:15) in /home/ajeshcoi/public_html/geom/dashboard/controller/delete_action.php on line 23
+[08-Dec-2014 05:02:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 11
+[08-Dec-2014 05:02:39 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 11
+[08-Dec-2014 05:03:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 13
+[08-Dec-2014 05:03:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php:11) in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 22
+[08-Dec-2014 05:05:15 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, array given in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 13
+[08-Dec-2014 05:05:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php:11) in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 22
+[08-Dec-2014 05:07:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php:11) in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 16
+[08-Dec-2014 05:07:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php:11) in /home/ajeshcoi/public_html/geom/dashboard/controller/login_action.php on line 19
+[19-Dec-2014 03:53:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/delete_event.php:13) in /home/ajeshcoi/public_html/geom/dashboard/controller/delete_event.php on line 17
+[24-Dec-2014 06:43:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/about_delete_action.php:11) in /home/ajeshcoi/public_html/geom/dashboard/controller/about_delete_action.php on line 19
+[24-Dec-2014 08:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/contact_action.php:13) in /home/ajeshcoi/public_html/geom/dashboard/controller/contact_action.php on line 20
+[24-Dec-2014 08:09:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajeshcoi/public_html/geom/dashboard/controller/contact_action.php:13) in /home/ajeshcoi/public_html/geom/dashboard/controller/contact_action.php on line 20
+[17-Feb-2015 00:24:23 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[17-Feb-2015 00:24:23 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[17-Feb-2015 00:33:29 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[17-Feb-2015 00:44:18 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[17-Feb-2015 00:44:18 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[17-Feb-2015 01:07:28 UTC] PHP Warning:  POST Content-Length of 14960074 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Feb-2015 01:10:26 UTC] PHP Warning:  POST Content-Length of 14960041 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Feb-2015 01:12:32 UTC] PHP Warning:  POST Content-Length of 11714948 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[20-Feb-2015 03:59:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 20
+[20-Feb-2015 03:59:57 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 20
+[20-Feb-2015 04:01:10 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 20
+[20-Feb-2015 04:01:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 20
+[20-Feb-2015 04:02:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:03:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:03:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:04:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:05:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:06:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:06:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:06:55 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[20-Feb-2015 04:13:38 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/georgiem/public_html/new/dashboard/controller/about_post_action.php on line 22
+[22-Feb-2015 13:07:28 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[22-Feb-2015 13:07:28 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[22-Feb-2015 13:21:54 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[22-Feb-2015 13:22:49 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 21:53:53 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[24-Feb-2015 21:53:53 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[24-Feb-2015 22:02:23 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:03:39 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[24-Feb-2015 22:03:56 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[24-Feb-2015 22:04:27 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[24-Feb-2015 22:07:08 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:09:44 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:11:36 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:12:10 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[24-Feb-2015 22:14:44 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:17:01 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:17:59 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:19:29 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:20:15 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:21:42 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:22:42 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:23:41 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:24:29 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:42:06 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:43:05 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:48:05 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:48:40 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:48:59 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[24-Feb-2015 22:49:29 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[02-Mar-2015 08:45:01 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[02-Mar-2015 09:28:54 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[02-Mar-2015 09:31:41 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[02-Mar-2015 09:49:22 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[02-Mar-2015 09:54:02 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[02-Mar-2015 10:16:26 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[05-Mar-2015 10:39:22 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[05-Mar-2015 10:39:22 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[11-Mar-2015 03:42:09 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[11-Mar-2015 03:42:09 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[11-Mar-2015 11:03:10 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[11-Mar-2015 11:03:53 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[11-Mar-2015 11:04:09 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[11-Mar-2015 11:05:41 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[11-Mar-2015 11:05:41 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[11-Mar-2015 22:30:05 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[11-Mar-2015 22:30:30 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:25:48 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:26:17 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:30:18 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:30:52 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:31:06 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[12-Mar-2015 08:52:47 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:56:17 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[12-Mar-2015 08:57:20 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[13-Mar-2015 03:29:55 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Mar-2015 03:29:55 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Mar-2015 10:49:49 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Mar-2015 10:49:49 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Mar-2015 10:50:38 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Mar-2015 10:50:38 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[23-Mar-2015 06:19:35 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[23-Mar-2015 06:19:35 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[23-Mar-2015 08:41:40 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[23-Mar-2015 08:41:40 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[27-Mar-2015 11:50:35 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[27-Mar-2015 11:50:35 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[27-Mar-2015 12:24:06 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[27-Mar-2015 12:24:06 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[27-Mar-2015 12:26:12 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[27-Mar-2015 12:29:13 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[27-Mar-2015 12:29:46 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[27-Mar-2015 12:30:11 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[27-Mar-2015 12:30:32 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[27-Mar-2015 12:37:51 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[27-Mar-2015 12:37:51 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[28-Mar-2015 09:16:34 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[28-Mar-2015 09:16:34 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[03-Apr-2015 01:54:11 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[03-Apr-2015 01:54:11 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[05-Apr-2015 02:27:44 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:29:55 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:30:17 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:30:47 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:31:05 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:31:41 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 02:32:03 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 05:57:24 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 05:57:54 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 05:58:19 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 05:59:20 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 05:59:38 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 06:00:12 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 06:00:13 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 06:00:38 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[05-Apr-2015 06:23:57 UTC] PHP Warning:  POST Content-Length of 11313203 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[05-Apr-2015 06:26:13 UTC] PHP Warning:  POST Content-Length of 11313201 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[05-Apr-2015 07:46:01 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[05-Apr-2015 07:46:01 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[05-Apr-2015 07:46:32 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[05-Apr-2015 07:46:32 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[05-Apr-2015 07:47:06 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[05-Apr-2015 07:47:06 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[05-Apr-2015 07:47:31 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[05-Apr-2015 07:47:31 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[06-Apr-2015 08:13:23 UTC] PHP Warning:  POST Content-Length of 11313556 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Apr-2015 08:23:51 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:24:06 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:24:33 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:24:48 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:25:26 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:25:37 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:26:19 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:26:47 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:30:35 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[06-Apr-2015 08:30:35 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[06-Apr-2015 08:32:07 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[06-Apr-2015 08:32:07 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[06-Apr-2015 08:32:51 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[06-Apr-2015 08:32:51 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[06-Apr-2015 08:51:46 UTC] PHP Notice:  Undefined offset: 1 in /home/georgiem/public_html/new/dashboard/controller/addimg_action.php on line 15
+[06-Apr-2015 08:55:36 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:55:52 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:56:09 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:56:46 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:57:20 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 08:57:58 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:10:15 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:11:12 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:11:36 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:11:47 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/edit_media_action.php on line 19
+[06-Apr-2015 11:12:13 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:12:59 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:13:19 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:13:47 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:42:09 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:54:56 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 11:59:43 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 12:00:13 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[06-Apr-2015 12:00:51 UTC] PHP Notice:  Undefined index: img_year in /home/georgiem/public_html/new/dashboard/controller/add_media_action.php on line 18
+[13-Apr-2015 07:53:42 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 07:53:42 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 07:54:56 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 07:54:56 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 07:58:25 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 07:58:25 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:08:00 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:08:00 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:09:02 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:09:02 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:11:04 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:11:04 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:13:15 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:13:15 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:15:37 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:15:37 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:20:02 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:20:02 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:23:27 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:23:27 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:27:18 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:27:18 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:29:28 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:29:28 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:30:43 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:30:43 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15
+[13-Apr-2015 08:31:14 UTC] PHP Notice:  Undefined index: pt_title in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 14
+[13-Apr-2015 08:31:14 UTC] PHP Notice:  Undefined index: pt_author in /home/georgiem/public_html/new/dashboard/controller/update_action.php on line 15

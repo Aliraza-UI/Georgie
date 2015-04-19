@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /fonts/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /css/
+Disallow: /img/
+Disallow: /dashboard/
+Disallow: /js/
+Disallow: /tmp/

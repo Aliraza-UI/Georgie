@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /css/
+Disallow: /bg-image/
+Disallow: /controller/
+Disallow: /js/
+Disallow: /pt-image/
