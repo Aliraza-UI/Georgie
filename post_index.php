@@ -67,10 +67,10 @@ if(isset($_GET['catg'])){
                   <div class="classs" style="width:200px;height:11px;">
                     <li style="margin-top:5px;margin-left:0px;display:table;">
                     	<?php if($fetch_c['catg_id']==$catg_id){ ?>
-                      <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" style="font-family:'Arial';text-decoration:none;color:#000000 !important;text-transform:capitalize;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b></a>
+                      <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" style="font-family:'Arial';text-decoration:none;color:#000000 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b></a>
                     <?php } 
                     else{?>
-                    	<a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:capitalize;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b></a>
+                    	<a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b></a>
                 	<?php  } ?>
                     </li>
                   </div>

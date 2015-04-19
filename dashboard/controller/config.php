@@ -1,6 +1,6 @@
 <?php
-	// define("HOST","localhost");
-	define("HOST","103.226.221.161");
+	// define("HOST","localhost"); // this is original
+	define("HOST","103.226.221.161"); // this is for local only
 	define("USER","georgiem_cmsdata");
 	define("PASSWORD","ajvc@mnkl!7385");
 	define("DBNAME","georgiem_cmsdatab");

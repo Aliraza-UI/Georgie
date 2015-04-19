@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="obj-wrapper"></div>
-        <div class="col-lg-6 col-md-6 col-sm-6 menu">
+        <div class="col-lg-6 col-md-6 col-sm-6 menu homemenu">
             <ul class="nav nav-pills nav-stacked menu-area">
                 <li class="main-li">
                     <a href="about.php">GEORGIE MATTINGLEY</a>
@@ -27,7 +27,6 @@
             </ul>
         </div>
         <div class="upcoming upcoming-home">
-            <div class="h-manager visible upc-main">&nbsp;</div>
             <?php
             $sql_sel_tr = "SELECT *FROM event ORDER BY sl_no ASC LIMIT 20";
             $res = mysql_query($sql_sel_tr);

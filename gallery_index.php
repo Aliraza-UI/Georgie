@@ -80,7 +80,7 @@ cursor:pointer;
         <div class="classs" style="height:11px;">
           <li style="margin-top:5px;margin-left:0px;display:table;">
               <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" 
-                 style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:capitalize;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
+                 style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
               </a>
           </li>
         </div>
@@ -95,7 +95,7 @@ cursor:pointer;
         <div class="classs" style="height:11px;display:none;">
           <li style="margin-top:5px;margin-left:0px;display:table;">
             <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>"
-              style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:capitalize;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
+              style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
             </a>
           </li>
         </div>
