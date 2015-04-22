@@ -30,7 +30,7 @@ if(isset($_GET['catg'])){
 </div><br>
 <div class="container-fluid" onclick="nextdiv()">
   <div class="row" style="margin-left:5px;margin-right:15px;">
-  	<div class="col-md-3" style="font-family:Arial;position:fixed;line-height:1px;text-align:left;margin-top:94px;text-transform:uppercase;overflow:visible;">
+  	<div class="col-md-2" style="font-family:Arial;position:fixed;line-height:1px;text-align:left;margin-top:94px;text-transform:uppercase;overflow:visible;">
       <?php 
           $sql_sel_menu_u = "SELECT *FROM menu";
           $result_menu_u = mysql_query($sql_sel_menu_u) or die("Cant execute Query !!!");
@@ -202,7 +202,7 @@ if(isset($_GET['catg'])){
         <b style="font-size: 12px;cursor:pointer;">
         More info
         <span class="up">
-           <img src="img/down.png" style="cursor:pointer;margin-left:5px;padding-left:0px;margin-top:0px;"> 
+           <img src="img/down.svg" style="cursor:pointer;margin-left:5px;padding-left:0px;margin-top:0px;width:11px"> 
         </span>
         </b>
         </div>

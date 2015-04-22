@@ -39,9 +39,8 @@ cursor:pointer;
 </div><br>
 
 <div class="container-fluid">
-  <div class="row" style="margin-left:5px;">
-    <div class="col-lg-4 col-md-4 col-sm-6" 
-      style="font-family:Arial;position:fixed;line-height:1px;text-align:left;margin-top:94px;text-transform:uppercase;">
+  <div class="row">
+    <div class="leftnv">
       <?php
       $sql_sel_menu_u = "SELECT *FROM menu";
       $result_menu_u = mysql_query($sql_sel_menu_u) or die("Cant execute Query !!!");
@@ -170,9 +169,8 @@ cursor:pointer;
       
       
     <!-- new gallery starts -->
-     <div class="col-lg-11 col-md-10 col-sm-8" 
-      style="margin-top:75px;margin-left:240px;line-height:0px;float:left;position:inherit;min-width:200px;max-width:1185px;">
-      
+     <div class="gallerycontainer">
+
     <?php
     
     $wid=array('180','190','180','190','180','190','180','190','180','190','180','190');
@@ -208,17 +206,15 @@ cursor:pointer;
     if($w==1||$w==3||$w==5||$w==7||$w==9||$w==11){
     $ni = $d+1;
       ?>
-    <div class="img-list" valign="top" 
-        style="float:left;margin:0px;padding:0px;overflow:hidden;margin-top:5px;vertical-align:top; ?>">
-    <?php 
-  }else{?> 
-  <div class="img-list" valign="top" 
-        style="float:left;margin:0px;padding:0px;overflow:hidden;margin-top:5px;vertical-align:top;min-height:210px; ?>">   
+    <div class="img-list" valign="top">
+    <?php } else { ?> 
+    <div class="img-list" valign="top">
    
    <?php } ?>
-   <img class ="thumbnail" id="dis<?php echo $d; ?>" style="cursor:pointer; margin-right:10px;height:<?php echo $wid[$w]; ?>px;" 
-        src="dashboard/pt-image/<?php echo $image_url; ?>"   
+   <a href="#" id="dis<?php echo $d; ?>" class="gallery-bx">
+   <img class ="thumbnail"  src="dashboard/pt-image/<?php echo $image_url; ?>"   
         data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left">
+  </a>
         
 
         <!--new -->
@@ -233,15 +229,11 @@ cursor:pointer;
                </div>
                 <div class="modal-body">
                               
-			<center style="max-height:760px;">
+			               <center style="max-height:760px;">
                            
                     	<img class="img-responsive" id="modal_img<?php echo $d; ?>" src="dashboard/pt-image/<?php echo $image_url; ?>" style="margin-top:30px;max-height:760px; " >
                     
-                           
                      	</center>
-                        
-                    
-                  
                   
                 </div>
                 <center>
@@ -273,7 +265,8 @@ cursor:pointer;
               </div>
             </div>
           </div>
-        </form>
+      </form>
+
       </div>  
       
   <?php
@@ -322,4 +315,28 @@ cursor:pointer;
 </nav>
 <!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script>
+
+var $container = $('.gallerycontainer');
+// initialize
+$container.masonry({
+  columnWidth: 250,
+  itemSelector: '.img-list'
+});
+
+
+var $container1 = $('.gallerycontainer').masonry();
+// layout Masonry again after all images have loaded
+$container1.imagesLoaded( function() {
+  // alert('images loaded');
+  $( ".img-list" ).css("height","auto");
+  $container.masonry();
+  // alert('masonary refreshed');
+  // $("#spinningSquaresG").hide();
+  // $( ".img-list" ).animate({opacity:1}, 1000);
+});
+
+</script>
 <?php include 'page_footer.php'; ?>
