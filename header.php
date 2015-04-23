@@ -19,7 +19,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <!-- custom css for index page -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=16" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
     <!--[if lt IE 9]>

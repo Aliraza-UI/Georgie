@@ -9,7 +9,7 @@
 		<title><?php echo $title; ?></title>
 		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/inline-styles.css?v=13" rel="stylesheet">
+		<link href="css/inline-styles.css?v=16" rel="stylesheet">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="hscroll/jquery.mousewheel.js"></script>
 		<script src="js/inline-script.js"></script>

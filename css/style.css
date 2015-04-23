@@ -108,4 +108,10 @@
 	 outline:none;
 }
 
-	  
+@media (max-width: 767px) {
+	.homemenu, .upcoming-home {position:static;}
+	.homemenu {font-size:40px;}
+	.nav > li > a {padding:0;}
+	.upcoming-home {width:100%;}
+	.upc-text {padding-right:10px;}
+}

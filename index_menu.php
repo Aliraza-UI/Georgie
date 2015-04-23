@@ -46,7 +46,7 @@
                 <?php } ?>
             </ul>
         </div>
-        <div class="col-xs-8  visible-xs-block">
+        <!-- <div class="col-xs-8  visible-xs-block">
             <?php
             $sql_sel_tr = "SELECT *FROM event ORDER BY sl_no ASC LIMIT 20";
             $res = mysql_query($sql_sel_tr);
@@ -67,6 +67,6 @@
                     <?php } ?>
                 </ul>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

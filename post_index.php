@@ -22,15 +22,15 @@ if(isset($_GET['catg'])){
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <ul class="nav nav-pills nav-stacked">
+      <ul class="nav nav-pills nav-stacked logoinside">
         <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;"><img src="img/georgie-title.svg" width="130" alt="GEORGIE MATTINGLEY" /></a></li>
       </ul>
     </div>
   </div>
 </div><br>
-<div class="container-fluid" onclick="nextdiv()">
-  <div class="row" style="margin-left:5px;margin-right:15px;">
-  	<div class="col-md-2" style="font-family:Arial;position:fixed;line-height:1px;text-align:left;margin-top:94px;text-transform:uppercase;overflow:visible;">
+<div class="container-fluid" > <!-- onclick="nextdiv()" -->
+  <div class="row">
+  	<div class="leftnv leftnavpost">
       <?php 
           $sql_sel_menu_u = "SELECT *FROM menu";
           $result_menu_u = mysql_query($sql_sel_menu_u) or die("Cant execute Query !!!");
