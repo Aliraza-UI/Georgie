@@ -181,3 +181,6 @@ margin-left:5px;
 .img-list a.gallery-bx {width:100%;display:block;padding: 3%;}
 .img-list a.gallery-bx img {width: 100%;}
 .thumbnail {margin-bottom:10px;}
+.al-next {position:absolute;right:10px;top:50%;width:20px;display:block;height:100px;z-index:111;}
+.al-prev {position:absolute;left:10px;top:50%;width:20px;display:block;height:100px;z-index:111;}
+.al-next img, .al-prev img {width:100%;}

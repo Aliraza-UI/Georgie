@@ -13,7 +13,7 @@
     <div class="col-md-12">
       <ul class="nav nav-pills nav-stacked">
         <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;">
-          <a href="index.php"style="font-size:30px;">GEORGIE<br style="line-height: 0.8;">MATTINGLEY</h3></a>
+          <a href="index.php"style="font-size:30px;"><img src="img/georgie-title.svg" width="130" alt="GEORGIE MATTINGLEY" /></a>
         </li>
       </ul>
     </div>

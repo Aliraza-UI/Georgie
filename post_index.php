@@ -23,7 +23,7 @@ if(isset($_GET['catg'])){
   <div class="row">
     <div class="col-md-12">
       <ul class="nav nav-pills nav-stacked">
-        <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;">GEORGIE<br style="line-height: 0.8;">MATTINGLEY</a></li>
+        <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;"><img src="img/georgie-title.svg" width="130" alt="GEORGIE MATTINGLEY" /></a></li>
       </ul>
     </div>
   </div>
@@ -101,7 +101,7 @@ if(isset($_GET['catg'])){
     </div>
   </div><!--row -->
 </div>
-      <div id="page-wrap" style="margin-top:85px;margin-left:245px;">
+      <div id="page-wrap" style="margin-top:85px;margin-left:255px;">
       	<div class="post" style="margin-left:-300px !important;"></div>
       	<?php
       	if(isset($_GET['menu'])&&($_GET['menu_id'])&&($_GET['catg'])&&($_GET['catg_id'])){
@@ -197,7 +197,7 @@ if(isset($_GET['catg'])){
   
 <div class="container-fluid" style="height:auto;">
   <div class="row" id="firstclick">
-     <div class="left text-muted" id="left" style="min-height:100px;width:300px;font-size:11px;position:fixed;margin-left:264px;font-family:Arial;">
+     <div class="left text-muted" id="left" style="min-height:100px;width:300px;font-size:11px;position:fixed;margin-left:272px;font-family:Arial;">
         <div class="first"  onclick="firstDiv()">
         <b style="font-size: 12px;cursor:pointer;">
         More info
@@ -209,7 +209,7 @@ if(isset($_GET['catg'])){
       </div>
    
   </div><br><br>
-   <div class="popover-text" id="popover-text" style="display:none; position: fixed;left: 249px;width: 720px;background-color: #fff;color: #000;max-height: 145px;min-height: 135px;overflow: auto;font-family:Arial;"> <?php echo stripslashes($pt_content_all); ?></div>
+   <div class="popover-text" id="popover-text" style="display:none;position:fixed;left:257px;width:720px;background-color:#fff;color:#000;max-height:145px;min-height:135px;overflow:auto;font-family:Arial;"> <?php echo stripslashes($pt_content_all); ?></div>
 </div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation"

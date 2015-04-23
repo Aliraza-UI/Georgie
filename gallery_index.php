@@ -71,7 +71,7 @@ cursor:pointer;
         while($c>$co_u){
         if($menu_id==$menu_id_u){
           $catg_id_u =$menu_catg_r_u[$co_u];
-          $sql_sel_catg = "SELECT *FROM catg where catg_id='$catg_id_u'";
+          $sql_sel_catg = "SELECT *FROM catg where catg_id='$catg_id_u' order by catg_name asc";
           $result_catg_u = mysql_query($sql_sel_catg) or die("Cant execute Query !!!");
           $fetch_c = mysql_fetch_array($result_catg_u);
           $re = $fetch_c['catg_name'];
@@ -222,23 +222,23 @@ cursor:pointer;
         <!--end -->
       <form method="post" class="form-horizontal" action="" type="text/multipart">
           <div class="modal bs-example-modal-lg" id="myModal_image<?php echo $d; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
+            <div class="modal-dialog" style="margin:0 auto;width:auto;">
+              <div class="modal-content" style="margin-top:0;">
               <div class="modal-header">
-          	<button class="close" type="button" data-dismiss="modal">×</button>
-               </div>
+            	   <button class="close" type="button" data-dismiss="modal">×</button>
+                 <a href="#" class="al-next" data-dismiss="modal"><img src="img/next.svg"/></a>
+                 <a href="#" class="al-prev" data-dismiss="modal"><img src="img/prev.svg"/></a>
+              </div>
                 <div class="modal-body">
                               
-			               <center style="max-height:760px;">
-                           
-                    	<img class="img-responsive" id="modal_img<?php echo $d; ?>" src="dashboard/pt-image/<?php echo $image_url; ?>" style="margin-top:30px;max-height:760px; " >
-                    
-                     	</center>
+			              <center class="popimgih">
+                    	<img class="img-responsive popimgih" id="modal_img<?php echo $d; ?>" src="dashboard/pt-image/<?php echo $image_url; ?>" >
+                    </center>
                   
                 </div>
                 <center>
                   <div class="footer" 
-                    style="width:100%;min-height:100px;color:#fff;font-family:'Arial';font-weight:600;">
+                    style="width:100%;min-height:55px;color:#fff;font-family:'Arial';font-weight:600;">
                     <div class="row modal-textrow">
                       
                       <div class="col-md-5" style="text-align:left;line-height:1.2;">
