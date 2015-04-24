@@ -66,42 +66,77 @@ cursor:pointer;
         <?php } ?>
         <ul>
         <?php
-        $co_u=0;
-        $ca_arr = array();
-        while($c>$co_u){
-        if($menu_id==$menu_id_u){
-          $catg_id_u =$menu_catg_r_u[$co_u];
-          $sql_sel_catg = "SELECT *FROM catg where catg_id='$catg_id_u' order by catg_name asc";
-          $result_catg_u = mysql_query($sql_sel_catg) or die("Cant execute Query !!!");
-          $fetch_c = mysql_fetch_array($result_catg_u);
-          $re = $fetch_c['catg_name'];
-          $catg_arr.= $re.",";
+
+            if($menu_id==$menu_id_u){
+                $menu_catg_u = $fetch['catg_id'];
+                $menu_childs = str_replace(" ",",",$menu_catg_u);
+
+                $menu_child_comma_seprated = trim($menu_childs, ",");
+
+                $sql_sel_catg = "SELECT * FROM catg where catg_id IN( $menu_child_comma_seprated ) order by catg_name asc";
+                $result_catg_u = mysql_query($sql_sel_catg) or die("Cant execute Query !!!");
+                //$fetch_c = mysql_fetch_array($result_catg_u);
+                $dataRows = array();
+                while ($array = mysql_fetch_row($result_catg_u)) {
+                    $dataRows[] = $array;
+                }
+
+                /*echo '<pre>';
+                print_r($dataRows);
+                echo '</pre>';*/
+            foreach($dataRows as $menuRows){
           ?>
+
+            <div class="classs" style="height:11px;">
+                <li style="margin-top:5px;margin-left:0px;display:table;">
+                    <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $menuRows[1]; ?> &catg_id=<?php echo $menuRows[0]; ?>"
+                       style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $menuRows[1]; ?></b>
+                    </a>
+                </li>
+            </div>
+
+          <?php
+                }//end if foreach
+            } //end of if
+
+
+        /*$co_u=0;
+        $ca_arr = array();
+         while($c>$co_u){
+         if($menu_id==$menu_id_u){
+           $catg_id_u =$menu_catg_r_u[$co_u];
+           $sql_sel_catg = "SELECT *FROM catg where catg_id='$catg_id_u' order by catg_name asc";
+           $result_catg_u = mysql_query($sql_sel_catg) or die("Cant execute Query !!!");
+           $fetch_c = mysql_fetch_array($result_catg_u);
+           $re = $fetch_c['catg_name'];
+           $catg_arr.= $re.",";
+           */?><!--
         <div class="classs" style="height:11px;">
           <li style="margin-top:5px;margin-left:0px;display:table;">
-              <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>" 
-                 style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
+              <a href="post_index.php?menu=<?php /*echo $menu_u; */?> &menu_id=<?php /*echo $menu_id_u; */?> &catg=<?php /*echo $fetch_c['catg_name']; */?> &catg_id=<?php /*echo $fetch_c['catg_id']; */?>"
+                 style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b>*<?php /*echo $fetch_c['catg_name']; */?></b>
               </a>
           </li>
         </div>
        
-        <?php   } 
+        <?php /*  }
         else if($menu_id==$menu_id_u){
         $catg_id_u = $menu_catg_r_u[$co_u];
         $sql_sel_catg = "SELECT *FROM catg where catg_id='$catg_id_u'";
         $result_catg_u = mysql_query($sql_sel_catg) or die("Cant execute Query !!!");
         $fetch_c = mysql_fetch_array($result_catg_u);
-        ?>
+        */?>
         <div class="classs" style="height:11px;display:none;">
           <li style="margin-top:5px;margin-left:0px;display:table;">
-            <a href="post_index.php?menu=<?php echo $menu_u; ?> &menu_id=<?php echo $menu_id_u; ?> &catg=<?php echo $fetch_c['catg_name']; ?> &catg_id=<?php echo $fetch_c['catg_id']; ?>"
-              style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php echo $fetch_c['catg_name']; ?></b>
+            <a href="post_index.php?menu=<?php /*echo $menu_u; */?> &menu_id=<?php /*echo $menu_id_u; */?> &catg=<?php /*echo $fetch_c['catg_name']; */?> &catg_id=<?php /*echo $fetch_c['catg_id']; */?>"
+              style="font-family:'Arial';text-decoration:none;color:#666666 !important;text-transform:none;margin-left:-28px;"><b><?php /*echo $fetch_c['catg_name']; */?></b>
             </a>
           </li>
         </div>
-        <?php } 
+        --><?php /*}
         $co_u =$co_u+1;
-        }  
+        }*/
+
     $ca_arr = rtrim($catg_arr,",");
     $cat_ar_t = explode(",",$ca_arr);
     asort($cat_ar_t);
