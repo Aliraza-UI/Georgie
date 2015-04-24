@@ -26,7 +26,7 @@
 }
 .nav-section>li>a{
     height:25px;
-    padding:0px 10px;
+    padding:0px 0px;
 }  
 
 .nav-stacked>li+li:hover{
@@ -52,14 +52,15 @@
 	font-size:20px;
 	font-family: 'tradegothicbold',Arial, sans-serif;
 }
-.upcoming-home {position:absolute;width: 250px;right: 20px;bottom: 0;height: 200px;}
+.upcoming-home {position:absolute;width: 250px;right: 20px;bottom: 0;}
+.upcoming-home a {padding:0;}
 .upc-main{
 	padding-top:105%;
 	width:100%;
 }
 .upc-text{
 	text-transform:uppercase;
-	padding-right: 20px;
+	padding-right:10px;
 }
 .upc-section{
 	/* max-height:210px; */
