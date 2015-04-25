@@ -23,7 +23,7 @@ if(isset($_GET['catg'])){
   <div class="row">
     <div class="col-md-12">
       <ul class="nav nav-pills nav-stacked logoinside postlogo">
-        <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;"><img src="img/georgie-title.svg" width="130" alt="GEORGIE MATTINGLEY" /></a></li>
+        <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;"><img src="img/georgie-title-1.svg" width="130" alt="GEORGIE MATTINGLEY" /></a></li>
       </ul>
     </div>
   </div>
@@ -247,7 +247,7 @@ if(isset($_GET['catg'])){
       </div>
    
   </div><br><br>
-   <div class="popover-text" id="popover-text" style="display:none;position:fixed;left:257px;width:720px;background-color:#fff;color:#000;max-height:145px;min-height:135px;overflow:auto;font-family:Arial;"> <?php echo stripslashes($pt_content_all); ?></div>
+   <div class="popover-text" id="popover-text" style="display:none;"> <?php echo stripslashes($pt_content_all); ?></div>
 </div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation"
