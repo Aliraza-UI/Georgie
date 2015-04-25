@@ -128,7 +128,12 @@ else if (isset($_SESSION['uname'])) {
                                             <label for="exampleInputFile">Upload post Images :</label> Please use images without special charters <br>*NB : (quotes(',"),comma(,) not alloweded)
                                             <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> 
                                             <input type="file" id="file" name="files[]" required="required" multiple="multiple" accept="image/*" />
-                                            
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Upload Thumbnail :</label> Please use images without special charters <br>*NB : (quotes(',"),comma(,) not alloweded) - max-width: 350px
+                                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> 
+                                            <input type="file" id="file-th" name="files-th[]" required="required" multiple="multiple" accept="image/*" />
                                         </div>
 
                                         <div class="form-group">

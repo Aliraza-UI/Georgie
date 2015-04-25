@@ -167,7 +167,7 @@ margin-left:5px;
 .modal-backdrop {background-color:#000;opacity:0.8 !important;}
 .leftnv {width:273px;padding-right:0;padding-left:33px;z-index:1;margin-top:94px;text-align:left;font-family:Arial;position:fixed;line-height:1px;text-transform:uppercase;}
 .gallerycontainer {min-height: 200px;width: 100%;position: relative;left: 0;top: 0;padding-left: 265px;margin-top:74px;}
-.img-list {width: 250px;float:left;height:250px;}
+.img-list {width: 250px;float:left;height:150px;}
 .img-list a.gallery-bx {width:100%;display:block;padding: 3%;}
 .img-list a.gallery-bx img {width: 100%;}
 .thumbnail {margin-bottom:10px;}

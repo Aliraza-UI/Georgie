@@ -245,11 +245,10 @@ cursor:pointer;
     <?php } else { ?> 
     <div class="img-list" valign="top">
    
-   <?php } ?>
-   <a href="#" id="dis<?php echo $d; ?>" class="gallery-bx">
-   <img class ="thumbnail"  src="dashboard/pt-image-th/<?php echo $image_url; ?>"   
-        data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left">
-  </a>
+    <?php } ?>
+    <a href="#" id="dis<?php echo $d; ?>" class="gallery-bx">
+      <img class="thumbnail" src="dashboard/pt-image-th/<?php echo $image_url; ?>" data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left">
+    </a>
         
 
         <!--new -->
@@ -353,7 +352,6 @@ cursor:pointer;
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script>
-
 var $container = $('.gallerycontainer');
 // initialize
 $container.masonry({
@@ -365,12 +363,8 @@ $container.masonry({
 var $container1 = $('.gallerycontainer').masonry();
 // layout Masonry again after all images have loaded
 $container1.imagesLoaded( function() {
-  // alert('images loaded');
   $( ".img-list" ).css("height","auto");
   $container.masonry();
-  // alert('masonary refreshed');
-  // $("#spinningSquaresG").hide();
-  // $( ".img-list" ).animate({opacity:1}, 1000);
 });
 
 </script>

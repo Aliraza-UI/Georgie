@@ -10,10 +10,10 @@
 		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 		<link href="css/bootstrap.css" rel="stylesheet">
 
-		<link href="css/inline-styles.css?v=21" rel="stylesheet">
+		<link href="css/inline-styles.css?v=24" rel="stylesheet">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="hscroll/jquery.mousewheel.js"></script>
-		<script src="js/inline-script.js"></script>
+		<script src="js/inline-script.js?v=25"></script>
 	</head>
 	<body>
