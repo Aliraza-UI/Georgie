@@ -22,7 +22,7 @@ if(isset($_GET['catg'])){
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <ul class="nav nav-pills nav-stacked logoinside">
+      <ul class="nav nav-pills nav-stacked logoinside postlogo">
         <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;"><a href="index.php"style="font-size:30px;"><img src="img/georgie-title.svg" width="130" alt="GEORGIE MATTINGLEY" /></a></li>
       </ul>
     </div>
@@ -30,7 +30,7 @@ if(isset($_GET['catg'])){
 </div><br>
 <div class="container-fluid" > <!-- onclick="nextdiv()" -->
   <div class="row">
-  	<div class="leftnv leftnavpost">
+  	<div class="leftnv leftnavpost postpagenav">
       <?php 
           $sql_sel_menu_u = "SELECT *FROM menu";
           $result_menu_u = mysql_query($sql_sel_menu_u) or die("Cant execute Query !!!");
@@ -233,7 +233,7 @@ if(isset($_GET['catg'])){
       </div>
     
   
-<div class="container-fluid" style="height:auto;">
+<div class="container-fluid postpagemore" style="height:auto;">
   <div class="row" id="firstclick">
      <div class="left text-muted" id="left" style="min-height:100px;width:300px;font-size:11px;position:fixed;margin-left:272px;font-family:Arial;">
         <div class="first"  onclick="firstDiv()">

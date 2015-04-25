@@ -247,7 +247,7 @@ cursor:pointer;
    
    <?php } ?>
    <a href="#" id="dis<?php echo $d; ?>" class="gallery-bx">
-   <img class ="thumbnail"  src="dashboard/pt-image/<?php echo $image_url; ?>"   
+   <img class ="thumbnail"  src="dashboard/pt-image-th/<?php echo $image_url; ?>"   
         data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left">
   </a>
         
