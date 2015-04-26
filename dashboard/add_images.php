@@ -29,7 +29,7 @@ else if (isset($_SESSION['uname'])) {
                 <br>
                 <div class="row">
                     <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" action="controller/addimg_action.php">
-                    <div class="box box-primary">
+                    <div class="box box-primary" style="height:200px;">
                         <div class="box-header">
                             
                         </div><!-- /.box-header -->
@@ -66,13 +66,20 @@ else if (isset($_SESSION['uname'])) {
                 <div class="form-group">
                 <br>
                 <div class="row">
-                    <div class="box box-primary"style="color:red;">
+                    <div class="box box-primary"style="color:red;height:200px;">
                         <div class="box-header"></div><!-- /.box-header -->
                         <div class="col-md-12">
                             <center><label for="exampleInputFile">Upload post Images :</label> 
                             Please use images without special charters <br>*NB : (quotes(',"),comma(,) not alloweded)</center>
                             <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> 
                             <center><input type="file" id="file" name="files[]" required="required" multiple="multiple" accept="image/*" /></center>
+
+                            <br><br>
+
+                            <center><label for="exampleInputFile">Upload post thumbnail :</label> 
+                            Please use images without special charters <br>*NB : (quotes(',"),comma(,) not alloweded)</center>
+                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> 
+                            <center><input type="file" id="fileth" name="filesth[]" required="required" multiple="multiple" accept="image/*" /></center>
                         </div><br>
 
                         <?php

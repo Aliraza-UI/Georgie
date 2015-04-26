@@ -167,7 +167,7 @@ margin-left:5px;
 .modal-backdrop {background-color:#000;opacity:0.8 !important;}
 .leftnv {width:273px;padding-right:0;padding-left:33px;z-index:1;margin-top:94px;text-align:left;font-family:Arial;position:fixed;line-height:1px;text-transform:uppercase;}
 .gallerycontainer {min-height: 200px;width: 100%;position: relative;left: 0;top: 0;padding-left: 265px;margin-top:74px;}
-.img-list {width: 250px;float:left;height:150px;}
+.img-list {width: 250px;float:left;}
 .img-list a.gallery-bx {width:100%;display:block;padding: 3%;}
 .img-list a.gallery-bx img {width: 100%;}
 .thumbnail {margin-bottom:10px;}
@@ -179,12 +179,13 @@ margin-left:5px;
 @media (max-width: 767px) {
 	.leftnv {position:static;margin-top:10px;}
 	.gallerycontainer {position:static;clear:both;padding-left:25px;margin-top:20px;}
-	#page-wrap {margin-left:15px !important;margin-top: 30px !important;}
-	#page-wrap table td img {max-height:300px !important;}
+	#page-wrap {margin-left:0px !important;margin-top: 30px !important;}
 	.postpagenav.leftnavpost {position: static;margin-top: 10px;}
 	.left.text-muted {margin-left:35px !important;}
 	.logoinside > li {position:static !important;}
 	.postlogo {position: static;}
 	.postpagenav {margin-top: 100px;}
 	.postpagemore, .postpagemore .text-muted {position: static !important;}
+	#page-wrap p img {width:99.7%;max-height:none !important;}
+	.popover-text {position:static;padding-left:20px;margin-top:-100px;height:auto;min-height:0;max-height:none;padding-bottom:40px;}
 }

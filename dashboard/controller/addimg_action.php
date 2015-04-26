@@ -23,6 +23,7 @@ else if (isset($_SESSION['uname'])) {
         $valid_formats = array("jpg", "png", "gif", "zip", "bmp");
         $max_file_size = 1024*1000; //10000 kb
         $path = "../pt-image/"; // Upload directory
+        $pathth = "../pt-image-th/"; // Upload directory
         $count = 0;
         $pt_image="";
         if(isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST"){
@@ -44,6 +45,28 @@ else if (isset($_SESSION['uname'])) {
                     }
                     else{ // No error found! Move uploaded files 
                         if(move_uploaded_file($_FILES["files"]["tmp_name"][$f], $path.$t.$name))
+                        $count++; // Number of successfully uploaded file
+                    }
+                }
+            }
+
+            foreach ( $_FILES['filesth']['name'] as $f => $name) { 
+                $t=time();    
+                $pt_image.=$t.$name.",";
+                if ($_FILES['filesth']['error'][$f] == 4) {
+                    continue; // Skip file if any error found
+                }          
+                if ($_FILES['filesth']['error'][$f] == 0) {              
+                    if ($_FILES['filesth']['size'][$f] > $max_file_size) {
+                        $message[] = "$name is too large!.";
+                        continue; // Skip large files
+                    }
+                    elseif( ! in_array(pathinfo($name, PATHINFO_EXTENSION), $valid_formats) ){
+                        $message[] = "$name is not a valid format";
+                        continue; // Skip invalid file formats
+                    }
+                    else{ // No error found! Move uploaded files 
+                        if(move_uploaded_file($_FILES["filesth"]["tmp_name"][$f], $pathth.$t.$name))
                         $count++; // Number of successfully uploaded file
                     }
                 }

@@ -237,7 +237,7 @@ cursor:pointer;
              $pos ="dashboard/pt-image/$image_url";
              
              list($width, $height, $type, $attr) = getimagesize("dashboard/pt-image/$image_url");
-             //echo $height;
+             // echo $height;
     if($w==1||$w==3||$w==5||$w==7||$w==9||$w==11){
     $ni = $d+1;
       ?>
@@ -247,7 +247,7 @@ cursor:pointer;
    
     <?php } ?>
     <a href="#" id="dis<?php echo $d; ?>" class="gallery-bx">
-      <img class="thumbnail" src="dashboard/pt-image-th/<?php echo $image_url; ?>" data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left">
+      <img class="thumbnail" src="dashboard/pt-image-th/<?php echo $image_url; ?>" data-toggle="modal" data-target="#myModal_image<?php echo $d; ?>" align="left" height="<?php echo $height; ?>">
     </a>
         
 
@@ -348,10 +348,12 @@ cursor:pointer;
   </div>
 </nav>
 <!-- jQuery Version 1.11.0 -->
-<script src="js/jquery-1.11.0.js"></script>
+<script src="js/jquery-1.9.1.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min"></script>
 <script>
+
+$( ".img-list" ).css("height","auto");
 var $container = $('.gallerycontainer');
 // initialize
 $container.masonry({
@@ -359,12 +361,22 @@ $container.masonry({
   itemSelector: '.img-list'
 });
 
+interval = setInterval(function () {
+  $container.masonry('destroy');
+
+  $container.masonry({
+    columnWidth: 250,
+    itemSelector: '.img-list'
+  });
+
+}, 200);
 
 var $container1 = $('.gallerycontainer').masonry();
 // layout Masonry again after all images have loaded
 $container1.imagesLoaded( function() {
-  $( ".img-list" ).css("height","auto");
+  // alert("loaded");
   $container.masonry();
+  clearInterval(interval);
 });
 
 </script>

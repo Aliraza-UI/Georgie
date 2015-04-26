@@ -30,12 +30,15 @@ $(function() {
 });
 
 $(function() {
+  var winwid1 = $(window).width();
+  if (winwid1 > 767) {
 	$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
 	$(".post").wrap("<td><p></p></td>");
 	$("html,body").mousewheel(function(event, delta) {
 	this.scrollLeft -= (delta * 60);
 	event.preventDefault();
 	});
+  }
 });
 function nextdiv(){
 	//document.getElementById("popover-text").style.backgroundColor="transparent";
