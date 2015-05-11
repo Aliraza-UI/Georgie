@@ -30,7 +30,7 @@ cursor:pointer;
     <div class="col-md-12">
       <ul class="nav nav-pills nav-stacked logoinside">
         <li style="margin-top:20px;text-transform:uppercase;font-size:30px;font-family:tradegothicbold;line-height:23px;position:fixed;margin-left:5px;">
-          <a href="index.php"style="font-size:30px;"><img src="img/georgie-title-1.svg" width="130" alt="GEORGIE MATTINGLEY" /></a>
+          <a href="index.php"style="font-size:30px;"><img src="img/georgie-title-1.svg" width="130" height="47" alt="GEORGIE MATTINGLEY" /></a>
           <!-- GEORGIE<br style="line-height: 0.8;">MATTINGLEY -->
         </li>
       </ul>
@@ -362,12 +362,17 @@ $container.masonry({
 });
 
 interval = setInterval(function () {
-  $container.masonry('destroy');
+
+  // var curscroll = $('body').scrollTop();
+  
+  // $container.masonry('destroy');
 
   $container.masonry({
     columnWidth: 250,
     itemSelector: '.img-list'
   });
+
+  // scrollTop: $(window).scrollTop() + curscroll;
 
 }, 200);
 
