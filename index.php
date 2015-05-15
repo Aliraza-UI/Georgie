@@ -1,5 +1,5 @@
 <?php
-$title = "Home - Georgie Mattingley - Visual Artist Australia"; 
+$title = "Georgie Mattingley"; 
 include 'header.php';
 include 'index_menu.php';
 include 'footer.php';
