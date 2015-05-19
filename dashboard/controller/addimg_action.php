@@ -52,7 +52,7 @@ else if (isset($_SESSION['uname'])) {
 
             foreach ( $_FILES['filesth']['name'] as $f => $name) { 
                 $t=time();    
-                $pt_image.=$t.$name.",";
+                // $pt_image.=$t.$name.",";
                 if ($_FILES['filesth']['error'][$f] == 4) {
                     continue; // Skip file if any error found
                 }          
