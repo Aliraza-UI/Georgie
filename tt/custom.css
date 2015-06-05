@@ -2821,6 +2821,9 @@ header.is-fixed { position: fixed; }
 	padding: 0;
 }
 .col-cat a.active {border-top: 4px solid #147514;padding-top: 30px;}
+.tipue_drop_right {padding: 15px !important;}
+.bxslider2 li {overflow-x: scroll;}
+.ramadan-table .table {min-width:480px;}
 @media only screen and (max-width: 991px) { 
 	.header-res-nav ul  li.nav-active a {border-bottom: 2px solid #3c8037;color: #3c8037;}
 }
