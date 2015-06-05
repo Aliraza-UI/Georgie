@@ -474,7 +474,7 @@ ul.prayer-list li.active:after {
 }
 .upcoming-box h3 span {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 14px;
 	margin: 0 10px 0 0;
 }
 .upcoming-box .top {
@@ -2820,10 +2820,17 @@ header.is-fixed { position: fixed; }
 
 	padding: 0;
 }
+.ramadan-table .bx-viewport{
+	height: auto !important;
+}
+.ramadan-table .table{
+	margin-bottom: 0;
+}
 .col-cat a.active {border-top: 4px solid #147514;padding-top: 30px;}
 .tipue_drop_right {padding: 15px !important;}
 .bxslider2 li {overflow-x: scroll;}
 .ramadan-table .table {min-width:480px;}
+.tipue_drop_item .tipue_drop_left {display:none;}
 @media only screen and (max-width: 991px) { 
 	.header-res-nav ul  li.nav-active a {border-bottom: 2px solid #3c8037;color: #3c8037;}
 }
@@ -2835,6 +2842,7 @@ header.is-fixed { position: fixed; }
 	.header-res-nav ul  li.nav-active a {color:#fff;background:#7fab37;}
 	.categories .cat-content {text-align: center;height: 100px;padding-top: 15px;}
 	.categories .col-cat {width: 25%;float: left;}
+	.places-search2 .col-centered {overflow: visible !important;}
 }
 @media only screen and (max-width:480px) {
 	.calendar-data ul li {height: 80px;}
