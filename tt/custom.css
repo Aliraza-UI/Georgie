@@ -47,8 +47,9 @@ a, input[type="submit"] { transition: all 0.2s linear; }
 	overflow: hidden;
 }
 .top-socials {
-	float: left;
-	margin: 24px 0 0 22px;
+	float: none;
+	margin: 24px 40px 0 0px;
+	text-align: center;
 }
 .top-socials a {
 	color: #fff;
