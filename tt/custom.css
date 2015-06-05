@@ -2000,6 +2000,7 @@ header.is-fixed { position: fixed; }
 	color: #7fab37;
 	text-decoration: none;
 }
+
 .ramadan-timings {
 	overflow: hidden;
 	text-align: center;
@@ -2820,13 +2821,25 @@ header.is-fixed { position: fixed; }
 }
 .col-cat a.active {border-top: 4px solid #147514;padding-top: 30px;}
 @media only screen and (max-width: 991px) { 
-	.ad-cont {display:none;}
+	.header-res-nav ul  li.nav-active a {border-bottom: 2px solid #3c8037;color: #3c8037;}
 }
-@media only screen and (max-width: 991px) {  
+@media only screen and (max-width: 991px) { 
+	.ad-cont {display:none;}
 	.calendar-content .col-md-9 {padding: 0;}
+}
+@media only screen and (max-width:768px) {
+	.header-res-nav ul  li.nav-active a {color:#fff;background:#7fab37;}
+	.categories .cat-content {text-align: center;height: 100px;padding-top: 15px;}
+	.categories .col-cat {width: 25%;float: left;}
 }
 @media only screen and (max-width:480px) {
 	.calendar-data ul li {height: 80px;}
 	.calendar-data ul li.header {padding:5px 0px;}
 	#calendar .block h3 {font-size: 13px;}
+	.results-content {padding: 0 !important;}
+	.categories {margin: 0}
+	.col-cat a {font-size:11px;padding-top: 14px;}
+	.col-cat a.active {padding-top: 10px;}
+	.categories .col-cat {height: 100px !important;}
+	.img-result h3 {font-size: 14px;text-align: center;}
 }
