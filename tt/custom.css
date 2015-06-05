@@ -1338,12 +1338,12 @@ header.is-fixed { position: fixed; }
 	background: #f9f9f9;
 	padding: 10px;
 	height: 105px;
-
 	width: 14.285%;
 	border-right: 1px solid #e6e6e6;
-	border-left: 1px solid #e6e6e6;
+	border-left: 0;
 	border-bottom: 1px solid #e6e6e6;
 }
+.calendar-data ul li:first-child {border-left: 1px solid #e6e6e6;}
 .calendar-data ul li.grey, .calendar-data ul li.grey .hijri {
 	color: #afafaf;
 }
@@ -2329,8 +2329,8 @@ header.is-fixed { position: fixed; }
 }
 .ad-cont img {
 	display: block;
-	width: auto;
-	height: 534px;
+	width: 100%;
+	max-height: 534px;
 }
 .margin0 {
 	margin: 0;
@@ -2816,4 +2816,15 @@ header.is-fixed { position: fixed; }
 .bxslider2{ 
 
 	padding: 0;
+}
+@media only screen and (max-width: 991px) { 
+	.ad-cont {display:none;}
+}
+@media only screen and (max-width: 991px) {  
+	.calendar-content .col-md-9 {padding: 0;}
+}
+@media only screen and (max-width:480px) {
+	.calendar-data ul li {height: 80px;}
+	.calendar-data ul li.header {padding:5px 0px;}
+	#calendar .block h3 {font-size: 13px;}
 }
