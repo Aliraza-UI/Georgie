@@ -25,7 +25,7 @@ a:focus, img:focus, a {
 	border: none;
 	text-decoration: none;
 }
-a, input[type="submit"] { transition: all 0.5s linear; }
+a, input[type="submit"] { transition: all 0.2s linear; }
 .header {
 	overflow: hidden;
 	border-bottom: 2px solid #d5d5d5;
@@ -827,7 +827,7 @@ ul.prayer-list li.active:after {
 	min-height: 421px;
 	padding: 5% 0 0;
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 #places-search .heading-box {
 	margin: 0;
@@ -1897,6 +1897,7 @@ header.is-fixed { position: fixed; }
 	color: #5e934d;
 	text-decoration: none;
 }
+.nav-section > ul > li.nav-active {border-top: 4px solid #147514;line-height: 61px;}
 .second-nav {
 	padding: 18px 0;
 	background: #2d2d2d;
@@ -2716,7 +2717,7 @@ header.is-fixed { position: fixed; }
 }
 .col-cat a i {
 	display: block;
-	transition: all 0.5s ease 0s;
+	transition: all 0.2s ease 0s;
 	font-size: 40px;
 	color: #147514;
 	line-height: 40px;
@@ -2730,7 +2731,7 @@ header.is-fixed { position: fixed; }
 }
 .col-cat a span {
 	display: block;
-	transition: all 0.5s ease 0s;
+	transition: all 0.2s ease 0s;
 }
 .col-cat a img {
 	margin: 0 0 10px;
@@ -2817,6 +2818,7 @@ header.is-fixed { position: fixed; }
 
 	padding: 0;
 }
+.col-cat a.active {border-top: 4px solid #147514;padding-top: 30px;}
 @media only screen and (max-width: 991px) { 
 	.ad-cont {display:none;}
 }
